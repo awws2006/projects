@@ -1,0 +1,23 @@
+div.gallery {
+    margin: 50px;
+    background-color: #00ADB5;
+    border-radius: 8px;
+    width: 60%;
+    height: 10%;
+    
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #393E46;
+  }
+  
+  div.gallery img {
+    padding: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  div.desc {
+    text-align: center;
+}

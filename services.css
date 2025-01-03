@@ -1,0 +1,94 @@
+
+
+  .para1{
+   background-image: url(images/parts.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .para2{
+    background-image: url(images/lead-image-lithophanes.webp);
+     min-height: 300px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100%;
+   }
+
+   .para3{
+    background-image: url(images/keychain.webp);
+     min-height: 300px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100%;
+   }
+
+   .para4{
+    background-image: url(images/all.png);
+     min-height: 300px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100%;
+   }
+
+   .para5{
+    background-image: url(images/logo\ banner.png);
+     min-height: 600px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100%;
+   }
+
+   .text{
+    color: #00ADB5;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00ADB5;
+    border: none;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    margin-top: 300px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #bot{text-decoration: none; color: #EEEEEE;}
